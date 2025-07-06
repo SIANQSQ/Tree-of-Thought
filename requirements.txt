@@ -1,0 +1,7 @@
+numpy
+openai==0.29.0
+python-dotenv==1.0.0
+asyncio
+json
+typing
+dataclasses
