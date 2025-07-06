@@ -17,7 +17,6 @@ pip install "openai<1.0.0"
 # 或使用requirements文件
 pip install -r requirements.txt
 ```
-
 ## 🚀 快速开始
 
 ### 1. 获取API密钥
@@ -32,14 +31,8 @@ API_KEY = "Your-API-Key"  # 替换为您的实际密钥
 ```
 
 ### 3. 运行示例
-```python
-from tot_24_solver_chinese_communication import ChineseCommunicationTreeOfThought24Solver
-
-# 初始化求解器
-solver = ChineseCommunicationTreeOfThought24Solver(API_KEY)
-
-# 求解24点问题
-result = solver.compare_approaches_detailed([3, 3, 8, 8])
+```bash
+python path/to/tot_24_solver.py
 ```
 
 ## 🎮 使用示例
